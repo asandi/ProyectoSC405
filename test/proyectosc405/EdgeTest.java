@@ -1,17 +1,17 @@
 
 package proyectosc405;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-
-public class ChromeTest {
+public class EdgeTest {
     
-    public ChromeTest() {
+    public EdgeTest() {
     }
-
+  
     @Test
-    public void testSomeMethod() {
+    public void testEdge() {
         
     }
     
