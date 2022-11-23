@@ -10,6 +10,8 @@ public class Main {
         f.Chrome();
         Edge e = new Edge();
         e.Edge();
+        Test1 t1 = new Test1();
+        t1.Test1();
     }
     
     

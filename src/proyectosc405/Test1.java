@@ -10,7 +10,8 @@ public class Test1 {
 
     public void Test1() {
 
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\barranz\\Downloads\\clases de la universidad\\calidad de software\\Selenium\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", 
+                "E:\\Universidad\\Cursos\\2022\\III C 2022\\Calidad del Software\\Proyecto\\DriverChrome\\chromedriver.exe");
         System.out.println("Test initiated");
         driver = new ChromeDriver();
         driver.get("https://play.google.com/store/games?hl=en&code&pli=1");
