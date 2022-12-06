@@ -1,25 +1,26 @@
 
 package proyectosc405;
 
+
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-public class ChromeTest {
+
+public class TestLibrosTest {
     
-    public ChromeTest() {
+    public TestLibrosTest() {
     }
-   
+       
     @Test
-    public void testChrome() {
+    public void testLibros() {
         boolean desplegado;
-        Chrome f = new Chrome();
-        f.Chrome();
+        TestLibros t = new TestLibros();
+        t.testLibros();
         if(desplegado= true){
             System.out.println("Elemento encontrado");
         }else{
             fail("The test case is a prototype.");
         }
-        
     }
     
 }
